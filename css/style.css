@@ -1,0 +1,9 @@
+header{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.header-main-nav li{
+    display: inline-block;
+    width: 20%;
+}
