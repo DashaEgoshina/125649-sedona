@@ -128,3 +128,88 @@ a {
 .room-search-title {
     font-family: "PT Sans Bold";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.range-filter {
+    width: 220px;
+    margin-bottom: 27px;
+}
+
+.range-controls {
+    position: relative;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 0 30px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.scale {
+    margin-top: 39px;
+    height: 2px;
+
+}
+
+.bar {
+    height: 2px;
+
+    width: 130px;
+}
+
+.toggle {
+    position: absolute;
+    top: 30px;
+    width: 4px;
+    height: 4px;
+    border: 8px solid white;
+
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.min-toggle {
+    left: 10px;
+}
+
+.max-toggle {
+    left: 145px;
+}
+
+.price-controls input {
+    width: 55px;
+    padding: 8px 19px;
+    border: none;
+
+    font-size: 16px;
+
+    text-align: center;
+
+    border-radius: 5px;
+    outline: none;
+}
+
+.price-controls {
+    position: relative;
+}
+
+.price-controls::after {
+    content: "—";
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+input.min-price {
+    margin-right: 25px;
+}
